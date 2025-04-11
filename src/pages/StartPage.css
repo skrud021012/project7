@@ -1,0 +1,75 @@
+.start-page {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+  
+.how-to-play {
+    margin-top: 20px;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start-buttons {
+    display: flex;
+    flex-direction: row;         /* ✅ 가로 정렬 */
+    justify-content: center;     /* ✅ 가운데 정렬 */
+    align-items: center;
+    gap: 12px;                   /* 버튼 사이 간격 */
+    flex-wrap: nowrap;           /* ✅ 줄바꿈 방지 */
+    margin-top: 16px;
+}
+  
+.start-buttons button {
+    font-size: 22px;             /* 이모지 크기 */
+    padding: 8px 12px;
+    border: none;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 8px;
+    min-width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+/* 닉네임 입력창 너비 고정 */
+.start-page {
+    width: 300px;
+    margin: 0 auto;
+}
+  
+.start-page input {
+    width: 100%;
+}
+
+/* 게임 방법 박스도 같은 너비로 */
+.how-to-play {
+    text-align: left;
+    width: 100%;
+    padding: 16px;
+    background: #f0f0f0;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+.how-to-play h3 {
+    text-align: center; /* 제목은 가운데! */
+    margin-bottom: 10px;
+}
+
+.how-to-play ul {
+    padding-left: 20px; /* ✅ 리스트 들여쓰기 */
+    margin: 0;
+}
+  
+
+  

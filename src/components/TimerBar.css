@@ -1,0 +1,15 @@
+.timer-bar-container {
+    width: 360px;               /* ✅ GameBoard와 동일한 너비 */
+    margin: 0 auto 10px auto;   /* ✅ 중앙 정렬 + 아래 여백 */
+    height: 16px;
+    background: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+  
+.timer-bar {
+    height: 100%;
+    background: linear-gradient(to right, #00bcd4, #4caf50);
+    transition: width 0.5s linear;
+}
+  

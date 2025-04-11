@@ -1,0 +1,80 @@
+/* RankingModal.css */
+
+.ranking-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.ranking-modal {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: center;
+}
+
+.ranking-modal h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #1976d2;
+  font-weight: bold;
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
+
+.ranking-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 1rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.rank-num {
+  width: 20px;
+}
+
+.rank-name {
+  flex: 1;
+  margin-left: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rank-score {
+  font-weight: bold;
+  color: #333;
+}
+
+.close-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  background: #1976d2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.close-btn:hover {
+  background: #1155aa;
+}
